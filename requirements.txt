@@ -1,0 +1,7 @@
+numpy
+Pillow
+ipykernel
+notebook
+nbformat
+opencv-python
+ultralytics

@@ -1,0 +1,71 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter-generated state
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Local Codex/workspace metadata
+.agents/
+.codex
+
+# Logs and temporary files
+*.log
+*.tmp
+~$*
+
+# Archives duplicate the unpacked project data
+*.zip
+*.tar
+*.tar.gz
+
+# Raw/private and generated datasets
+Data/
+dataset/
+detect-roughness-steel-surface.yolov12/
+inspection.yolov12/train/
+inspection_split/
+
+# YOLO dataset index caches
+*.cache
+
+# Downloaded, duplicate, and generated model artifacts
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+
+# Ultralytics training and validation output. Keep only the trained model
+# used by the inference scripts.
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/steel_detector4/
+runs/detect/steel_detector4/*
+!runs/detect/steel_detector4/weights/
+runs/detect/steel_detector4/weights/*
+!runs/detect/steel_detector4/weights/best.pt
+
+# Common inference outputs
+quality_output.jpg
+test_output.jpg
+output/
+outputs/

@@ -1,0 +1,13 @@
+
+path: inspection.yolov12
+
+train: images/train
+# val: images/val
+
+nc: 24
+names: [
+'roughness_1','roughness_10','roughness_11','roughness_12','roughness_13','roughness_14',
+'roughness_15','roughness_16','roughness_17','roughness_18','roughness_19','roughness_2',
+'roughness_20','roughness_21','roughness_22','roughness_23','roughness_24',
+'roughness_3','roughness_4','roughness_5','roughness_6','roughness_7','roughness_8','roughness_9'
+]
